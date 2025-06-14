@@ -1,0 +1,12 @@
+; Start G-code for Custom Ender 3-like with Dual Z and Beacon3D
+; Use this in your slicer's start G-code section
+
+; Start print macro with temperatures
+START_PRINT TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature]
+
+; Optional: Add custom start commands here
+; For example:
+; M118 Starting print of {print_filename}
+; M118 Layer height: {layer_height}mm
+; M118 First layer temp: {first_layer_temperature}°C
+; M118 Bed temp: {first_layer_bed_temperature}°C 

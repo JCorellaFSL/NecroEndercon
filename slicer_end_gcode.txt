@@ -1,0 +1,11 @@
+; End G-code for Custom Ender 3-like with Dual Z and Beacon3D
+; Use this in your slicer's end G-code section
+
+; End print macro
+END_PRINT
+
+; Optional: Add custom end commands here
+; For example:
+; M118 Print completed successfully!
+; M118 Total print time: {print_time}
+; M118 Total filament used: {filament_used}mm 
