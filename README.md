@@ -22,6 +22,21 @@
 - **Inductance**: 2.8mH per phase
 - **Benefit**: Superior precision and surface finish quality
 
+### Hotend and Extruder Setup
+
+#### E3D Revo 6 Hotend
+- **Heater**: 40W cartridge heater
+- **Sensor**: PT1000 temperature sensor
+- **Max Temperature**: 300°C capability
+- **Nozzle**: 0.4mm (standard)
+- **Configuration**: Bowden tube setup
+
+#### Bondtech Extruder
+- **Type**: BMG/LGX compatible
+- **Gear Ratio**: 3:1 reduction
+- **Drive**: Remote (not direct drive)
+- **Filament**: 1.75mm compatible
+
 #### Z Axis Motors: 17HS19-2004S1 (Dual Setup)
 - **Step Angle**: 1.8° (200 steps/revolution)
 - **Current Rating**: 2.0A per phase (each motor)
@@ -162,10 +177,12 @@ SET_QUALITY_MODE
 
 ## Motor Specifications Summary
 
-| Motor Type | Application | Step Angle | Current | Torque | Precision |
-|------------|-------------|------------|---------|---------|-----------|
-| E3D MY-1704HSM168RE | X/Y/E | 0.9° | 1.68A | 4.4 kg·cm | Ultra-High |
-| 17HS19-2004S1 | Z1/Z2 | 1.8° | 2.0A | 4-5 kg·cm | High |
+| Component | Application | Key Specs | Notes |
+|-----------|-------------|------------|-------|
+| E3D MY-1704HSM168RE | X/Y/E Motors | 0.9°, 1.68A, 4.4 kg·cm | Ultra-High Precision |
+| 17HS19-2004S1 | Z1/Z2 Motors | 1.8°, 2.0A, 4-5 kg·cm | High Torque |
+| E3D Revo 6 | Hotend | 40W, PT1000, 300°C | Quick-Change Nozzles |
+| Bondtech Extruder | Filament Drive | 3:1 Ratio, Bowden | Precise Extrusion |
 
 ## Advantages of This Configuration
 
